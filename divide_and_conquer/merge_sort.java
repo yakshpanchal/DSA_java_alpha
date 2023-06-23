@@ -29,7 +29,6 @@ public class merge_sort {
         int i = si; // index for left part
         int j = mid + 1; // index for right part
         int k = 0; // index for temp
-
         while (i <= mid && j <= ei) {
             if (arr[i] < arr[j]) {
                 temp[k] = arr[i];
